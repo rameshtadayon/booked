@@ -1,0 +1,55 @@
+.allBooks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 200px;
+    margin-top: 25px;
+    background-image: url('../icons/blue_book.jpeg');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: 46% 15%
+}
+
+.bookInfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 20px;
+    position: absolute;
+    width: 150px;
+    color: white;
+}
+
+.Title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.author {
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.deleteButtonDiv {
+    display: flex;
+    padding: 10px;
+}
+
+.deleteButton {
+    font-size: .8rem;
+}
+
+.actionButtons {
+    padding-top: 250px;
+    padding-right: 35px;
+    display: flex;
+    align-items: center;
+}

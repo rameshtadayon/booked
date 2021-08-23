@@ -1,0 +1,20 @@
+.newBookForm {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+}
+
+.bookForm {
+    padding: 20px;
+}
+
+.titleLabel, .authorLabel {
+
+    margin-left: 25px;
+    margin-right: 5px
+}
+
+.submitLabel {
+    margin-left: 25px;
+}
